@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="DeAsiah Blackman">
+    <meta name="description" content="Final project contact page of Swiss Lake Resort website">
+    <title>Swiss Lake Resort | Contact</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Swiss Lake Resort</a></h1>  
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="form">
+            <img src="images/swiss-valley.jpg" alt="" width="1440" height="560">
+            
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a(<span class="required">*</span>).</p>
+                <img src="images/swiss-sunset.jpg" alt="Sunset with mountains, dark green trees, and a few cabins." width="710" height="270"> 
+           
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <div id="form-left">
+                <label for="full-name">Full Name<span class="required">*</span></label>
+			    <input type="text" name="full-name" id="full-name" required>
+                <label for="my-email">Email Address<span class="required">*</span></label>
+			    <input type="email" name="my-email" id="my-email" required>
+                <label for="my-phone">Phone Number<span class="required">*</span></label>
+			    <input type="tel" name="my-phone" id="my-phone" required>
+                </div>
+                <div id="form-right">
+                <fieldset>
+                    <legend>Preferred contact method</legend>
+                    <input type="radio" name="preferred-contact" id="preferred-email" checked>
+                    <label for="preferred-email">Email</label>
+                    <input type="radio" name="preferred-contact" id="preferred-phone">
+                    <label for="preferred-phone">Phone</label>
+                </fieldset>
+                <label for="comments-section">Comments<span class="required">*</span></label>
+			    <textarea name="comments-section" id="comments-section" required></textarea>
+			
+			    <input type="submit" name="submit-section" id="submit-section" value="Submit Form">
+                </div>
+            </form>
+        </section>    
+    </main>
+    <footer>
+        <p> Copyright &copy;2023 - Swiss Lake Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer> 
+</body>
+</html>
